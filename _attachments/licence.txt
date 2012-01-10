@@ -1,0 +1,20 @@
+﻿FurnitureFactory
+
+FurnitureFactory was developed for unserwein.at by Bernhard Hörmann and is based on costco and jsondiff.
+
+Code used in FurnitureFactory:
+	-> Costco 
+	http://github.com/harthur/costco
+	
+	-> JSON Diff by Tom Robinson
+	http://tlrobinson.net/projects/javascript-fun/jsondiff/
+
+	-> Underscore.js
+	https://github.com/documentcloud/underscore/		
+
+Images / Icons from:
+	-> Damien Guard 
+	http://damieng.com/creative/icons/silk-companion-1-icons
+	
+	-> ashung:
+	http://ashung.deviantart.com/

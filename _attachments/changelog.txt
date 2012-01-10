@@ -1,0 +1,23 @@
+########## Version 0.5 - 2012-01-10 ##############
+- Cleanup for publishing to github
+- adding simple exmples for furnitureFunctions
+
+########## Version 0.4 - 2011-07-21 ##############
+- New file/folder structure to bring vendor files to vendor folders
+- Translation to english
+- Deepcopy of docs by json.stringify to see all changes
+ 
+########## Version 0.3 - 2011-07-14 ##############
+- Hide resultset if new action is started 
+- New design + new icons
+- Adding licence file
+
+########## Version 0.2 - 2011-06-02 ##############
+- Add tab for failed documents
+- Blank furniture-function
+- Add scrolling function "goto first-page" and "goto last-page" for resultset
+
+########## Version 0.1 - 2011-05-15 ##############
+- Fork of costco
+- Integrate jsondiff to show changes
+- Integrate possibility to use external files to load as furniture-function

@@ -1,5 +1,5 @@
 /*
- * FurnitureFactory 0.4 (version from 2011-07-16)
+ * FurnitureFactory 0.5 (version from 2001-01-10)
  * Based on costco fork (version from 2011-01-18)
  * https://github.com/harthur/costco
  */
