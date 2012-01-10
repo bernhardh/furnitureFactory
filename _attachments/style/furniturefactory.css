@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	margin: 0;
+	background-color: #71B1D7;
+}
+
+a {color: #008000;}
+
+#leftNavi ul {padding:0 15px;}
+#leftNavi li{margin: 5px 0;}
+
+.boxShadow {
+  -moz-box-shadow: 0 1px 3px #999999;
+  -webkit-box-shadow: 0 1px 3px #999999;
+}
+#header {padding: 7px 5px 5px 0px; text-align: vertical;}
+#new-db-option { font-style: italic; }
+#create-box { padding: 20px; }
+
+#container {width: 99%;margin:0.5%;}
+
+#navigation {width: 340px;float:left;}
+#navigation select, #navigation input {width:300px;}
+
+#middlePart {margin-left: 340px;}
+
+#map-function {
+  width: 100%;
+  height: 200px;
+  font-family: monospace;
+  font-size: 1.1em;
+  margin: 8px 0;
+}
+
+#map-container { margin-bottom: 20px; }
+
+#newFunction-button {float:left;}
+
+.button {
+	padding: 0.5em 0.8em;
+	display: inline-block;
+	cursor: pointer;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 3px #999999;
+	-webkit-box-shadow: 0 1px 3px #999999;
+	color: #222222;
+	background-color: #cefcce;
+}
+
+.contentbox {
+	border: 1px solid black;
+	background-color: white;
+	padding: 15px;
+	margin: 0 0.5% 8px 0.5%;
+}
+
+label { display:block; font-weight:bold; margin-top:8px;}
+h1 {text-align:center;}
+
+#furnitureFunctions {margin-bottom:8px;}
+
+.rightButton {text-align:right;}
+#resultSet { margin-top:15px; display:none;}
+#resultsHeader, .resultsLeiste {margin: 20px 0.5% 0 0.5%;}
+#resultsHeader .tab {border: 1px solid black;border-bottom:none;background-color: white; padding:10px 32px; margin-right:5px; font-weight:bold; text-decoration:none; color:#000;}
+.resultsLeiste {float:right; margin-top:3px; margin-bottom:3px; padding:0 15px;}
+#results {margin-top:10px;}
+#resultsHeader .activeTab { background-color:#CEFCCE;}
+
+.failureMsg {border: 1px solid #f00; padding:8px; margin-bottom:15px; font-size:12px; font-weight:bold;}
+
+#map-function[readonly] {background-color:#EEE;}
+
+#statusTitle {float:left; font-weight:bold;}
+#statusText {margin-left:60px;padding-left:20px;}
+#status-box {display:none;}
+	#status-box .process {background:url(../img/loading.gif) no-repeat;}
+	#status-box .error {color:#F00;}
+	#status-box .success {color:#0F0;}
+	
+#nChanged, #nDeleted, #nFailed {background:#FFF 8px center no-repeat;}
+#nChanged {background-image:url(../img/changed.png);}
+#nDeleted {background-image:url(../img/deleted.png);}
+#nFailed {background-image:url(../img/failed.png);}
